@@ -1,0 +1,9 @@
+{
+  "Name": "Liquidity",
+  "Symbol": "LQD",
+  "Total supply": "100,000,000,000",
+  "Address": "Oxc19A343085201645sx5fga8875AY4T1J45500f0g9",
+  "Tax fee percent": "3%",
+  "Liquidity fee percent": "3%",
+  "maxTx percent": "0.02%"
+}

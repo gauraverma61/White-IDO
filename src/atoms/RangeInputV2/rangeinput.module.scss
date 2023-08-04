@@ -1,0 +1,56 @@
+// Range input style
+/*********** Baseline, reset styles ***********/
+.green {
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 100%;
+  }
+
+  /* Removes default focus */
+  input[type="range"]:focus {
+    outline: none;
+  }
+
+  /******** Chrome, Safari, Opera and Edge Chromium styles ********/
+  /* slider track */
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-color: var(--primary-green);
+    height: 2px;
+  }
+
+  /* slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    z-index: 25;
+    position: relative;
+
+    margin-top: -8px; /* Centers thumb on the track */
+    background-color: var(--primary-green);
+    border-radius: 100%;
+    cursor: grab;
+    height: 18px;
+    width: 18px;
+  }
+
+  /*********** Firefox styles ***********/
+  /* slider track */
+  input[type="range"]::-moz-range-track {
+    background-color: var(--primary-green);
+    height: 2px;
+  }
+
+  /* slider thumb */
+  input[type="range"]::-moz-range-thumb {
+    background-color: var(--primary-green);
+    z-index: 25;
+    position: relative;
+    border: none; /*Removes extra border that FF applies*/
+    transform: rotate(45deg);
+    cursor: grab;
+    height: 15px;
+    width: 15px;
+  }
+}

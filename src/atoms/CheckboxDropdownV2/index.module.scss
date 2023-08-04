@@ -1,0 +1,21 @@
+.checkbox_label {
+  position: relative;
+}
+.checkbox_label::before {
+  content: "";
+  height: 12px;
+  width: 12px;
+  transform: rotate(45deg);
+  border: 1px solid var(--primary-green);
+  margin-left: 10px;
+  margin-top: 6px;
+  position: absolute;
+  left: -40px;
+}
+
+.checkbox:checked + .checkbox_label::before {
+  background-color: var(--primary-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

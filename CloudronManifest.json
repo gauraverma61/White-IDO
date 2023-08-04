@@ -1,0 +1,9 @@
+{
+  "title": "ParioPad-Launchpad Frontend",
+  "version": "0.1.0",
+  "healthCheckPath": "/",
+  "httpPort": 3000,
+  "addons": {},
+  "manifestVersion": 2,
+  "icon": ""
+}

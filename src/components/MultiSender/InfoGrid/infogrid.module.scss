@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  margin: 24px 0;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  border-radius: 24px;
+  // background-color: #e8e8e8;
+  // border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.tab {
+  background-color: white;
+  padding: 16px;
+  font-size: 30px;
+  text-align: center;
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 1150px) {
+  .container {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media screen and (max-width: 350px) {
+  .container {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}

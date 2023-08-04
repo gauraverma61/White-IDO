@@ -1,0 +1,131 @@
+.gradientBackGround {
+  background: linear-gradient(180deg, #1fbfd1 0%, #b3f7ff 100%);
+}
+
+.red {
+  .activeBigcircle {
+    background-color: #eb6d65;
+  }
+  .unActive {
+    background-color: #f9f9f9;
+  }
+  .ended {
+    background-color: #eb6d65;
+  }
+
+  .activeSmallcircle {
+    background-color: #eb6d65;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #eb6d65;
+    color: white;
+  }
+
+  .endLine {
+    background-color: #eb6d65;
+  }
+
+  .lineGradient {
+    background: linear-gradient(180deg, #eb6d65 0%, white 100%);
+  }
+}
+
+.violet {
+  .activeBigcircle {
+    background-color: #9696e2;
+  }
+  .unActive {
+    background-color: #f9f9f9;
+  }
+  .ended {
+    background-color: #9696e2;
+  }
+
+  .activeSmallcircle {
+    background-color: #9696e2;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #9696e2;
+    color: white;
+  }
+
+  .endLine {
+    background-color: #9696e2;
+  }
+
+  .lineGradient {
+    background: linear-gradient(180deg, #9696e2 0%, white 100%);
+  }
+}
+
+.violet2 {
+  .activeBigcircle {
+    background-color: #8e78b6;
+  }
+  .unActive {
+    background-color: #f9f9f9;
+  }
+  .ended {
+    background-color: #8e78b6;
+  }
+
+  .activeSmallcircle {
+    background-color: #8e78b6;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #8e78b6;
+    color: white;
+  }
+
+  .endLine {
+    background-color: #8e78b6;
+  }
+
+  .lineGradient {
+    background: linear-gradient(180deg, #8e78b6 0%, white 100%);
+  }
+}
+
+.gray {
+  .activeBigcircle {
+    background-color: #64748b;
+  }
+  .unActive {
+    background-color: #f9f9f9;
+  }
+  .ended {
+    background-color: #64748b;
+  }
+
+  .activeSmallcircle {
+    background-color: #64748b;
+    border: 1px solid white;
+    color: white;
+  }
+
+  .shape {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: #64748b;
+    color: white;
+  }
+
+  .endLine {
+    background-color: #64748b;
+  }
+
+  .lineGradient {
+    background: linear-gradient(180deg, #64748b 0%, white 100%);
+  }
+}

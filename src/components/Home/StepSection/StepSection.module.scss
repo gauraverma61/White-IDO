@@ -1,0 +1,38 @@
+.first {
+  background: linear-gradient(to right, #ff8e8e, #ffd647);
+  .inner {
+    background-color: aqua;
+  }
+}
+
+.second {
+  background: linear-gradient(to right, #4475f2, #5ddaeb);
+}
+.third {
+  background: linear-gradient(to right, #28b81b, #e7eb19);
+}
+.fourth {
+  background: linear-gradient(to right, #f673f9, #8769ff);
+}
+.fifth {
+  background: linear-gradient(to right, #ffdf8e, #ff5d47);
+}
+
+.heading {
+  // font-family: "fonde";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 83px;
+  line-height: 88px;
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 45px;
+    line-height: 40px;
+  }
+}
+
+.gradientLine {
+  background: linear-gradient(#f56436, #28b81b, #f673f9, #ff3838);
+}
